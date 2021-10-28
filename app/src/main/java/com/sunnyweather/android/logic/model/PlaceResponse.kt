@@ -14,8 +14,8 @@ data class Places (
 )
 
 data class Location (
-    val lat: Double,
-    val lng: Double
+    val lat: String,
+    val lng: String
 )
 
 
