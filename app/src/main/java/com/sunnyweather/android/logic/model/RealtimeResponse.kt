@@ -14,6 +14,6 @@ data class RealtimeResponse(val status: String, val result: Result) {
 
     data class AirQuality(val aqi: AQI)
 
-    data class AQI(val chn: Float)
+    data class AQI(val chn: String)
 
 }

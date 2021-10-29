@@ -9,7 +9,7 @@ data class DailyResponse(val status: String, val result: Result) {
 
     data class Daily(
         val temperature: List<Temperature>,
-        val skycom: List<Skycon>,
+        val skycon: List<Skycon>,
         @SerializedName("life_index") val lifeIndex: LifeIndex
     )
 
